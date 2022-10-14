@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Kel5ChatBot di sini. Mau mesan kopi apa hari ini?",
+        "Halo! Saya Kel5ChatBot, salam kenal ya! Mau mesan kopi kan?",
+        "Helo! Ini Kel5ChatBot. ingin mengetahui informasi tentang kami?"
+      ]
+    },
+    {
+      "tag": "Kel5ChatBot",
+      "patterns": [
+        "Apa itu Kel5ChatBot?",
+        "Siapa Kel5ChatBot?"
+      ],
+      "responses": [
+        "Kel5ChatBot adalah aplikasi chatbot informasi tentang jenis-jenis produk yang kopi yang dijual",
+        "Kel5ChatBot adalah tempat pemesanan kopi"
+      ]
+    },
+    {
+      "tag": "pencipta_Kel5ChatBot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "hi, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Kel5chatbot?"
+      ],
+      "responses": [
+        "Kel5ChatBot diciptakan oleh mahasiswa dan mahasiswi kelompok 5dari program AI for StarUps yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat Kel5ChatBot dari kalangan mahasiswa dan mahasiswi dari AI for StartUps lho!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye Silahkan datang dilain waktu lagi",
+        "Selemat menikmati Kopinya",
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "penjelasan_tentang_kopi",
+      "patterns": [
+        "Apa saja kopi yang kamu produksi?",
+        "Kopi apa saja yang kamu sediakan?"
+      ],
+      "responses": [
+        "adapun kopi yang kami produksi adalah Kopi Kenangan Mantan, Salted Caramel Macchiato, Susu Bobba Gula Aren, Kopi Kelapa, Banana Chocolate Bread"
+      ]
+    },
+    {
+      "tag": "harga_kopi",
+      "patterns": [
+        "Bolehkah saya melihat daftar harga kopi?"
+      ],
+      "responses": [
+        "Tentu saja ,berikut daftar harga kopi di cafe kami yaitu Kopi Kenangan Mantan : Rp. 10.000, Salted Caramel Macchiato : Rp.12.000, Susu Bobba Gula Aren : Rp.13.000, Kopi Kelapa : Rp.14.000, Banana Chocolate Bread : Rp.15.000"     
+      ]
+    },
+    {
+      "tag": "kopi_bestseller",
+      "patterns": [
+        "Kopi apa yang best seller?"
+      ],
+      "responses": [
+        "Kopi best seller di cafe ini adalah Kopi Kenangan Mantan"
+      ]
+    },
+    {
+      "tag": "harga_kopi_KopiKenanganMantan",
+      "patterns": [
+        "Berapakah harga untuk Kopi Kenangan Mantan?"
+      ],
+      "responses": [
+        "Harga untuk Kopi Kenangan Mantan adalah Rp.10.000"
+      ]
+    },
+    {
+      "tag": "harga_kopi_SaltedCaramelMacchiato",
+      "patterns": [
+        "Berapakah harga untuk kopi Salted Caramel Macchiato?"
+      ],
+      "responses": [
+        "Harga untuk Kopi Salted Caramel Macchiato adalah Rp.12.000"
+      ]
+    },
+    {
+      "tag": "harga_kopi_SusuBobbaGulaAren",
+      "patterns": [
+        "Berapakah harga untuk Kopi Susu Bobba Gula Aren?"
+      ],
+      "responses": [
+        "Harga untuk Kopi Susu Bobba Gula Aren adalah Rp.13.000"
+      ]
+    },
+    {
+      "tag": "harga_kopi_KopiKelapa",
+      "patterns": [
+        "Berapakah harga untuk Kopi Kelapa?"
+      ],
+      "responses": [
+        "Harga untuk Kopi Kelapa adalah Rp.14.000"
+      ]
+    },
+    {
+      "tag": "harga_kopi_BananaChocolateBread",
+      "patterns": [
+        "Berapakah harga untuk Kopi Banana Chocolate Bread?"
+      ],
+      "responses": [
+        "Harga untuk Kopi Banana Chocolate Bread adalah Rp.15.000"
+      ]
+    }
+  ]
+}
